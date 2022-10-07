@@ -1,0 +1,82 @@
+:root{
+    --light-black:rgba(131, 131, 131, 0.5);
+    --display-color: #f0f0f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nums,.matfun,.equal,.clear,.del {
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.mathfun{
+    padding: 15px;
+    
+}
+button{
+    border-radius: 25%;
+    border: none;
+    margin: 5px;
+    font-size: 15px;
+    width: 75px;
+}
+#first{
+    display: block;
+    text-align: right;
+    padding: 0 5px;
+    margin: 10px 0;
+    height: 50px;
+    width: 70%;
+    font-size: 40px;
+    /* margin: 0 1%; */
+    border-radius: 10px;
+    border: none;
+    /* background-color: var(--light-black) ; */
+    background-color: var(--display-color) ;
+    
+
+
+}
+button:active{
+    background-color: var(--light-black)    ;
+}
+
+.equal{
+    width: 33%;
+    border-radius: 15px;
+}
+
+
+.main-fram{
+   
+    width: auto;
+    
+}
+.main-fram .container{
+    display: flex;  
+  
+    height: 100vh;
+    
+}   
+.cal{
+    align-self: center;
+ 
+    height: 100vh;
+
+
+    padding: 13% 10%;
+    margin: auto;
+}
+.display,
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fivith-line{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
